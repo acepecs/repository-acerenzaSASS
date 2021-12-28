@@ -1,0 +1,73 @@
+@media (max-width: 883px) {
+  section.bienvenidos {
+    color: #050505;
+    font-style: italic;
+    font-weight: 500;
+    display: block; } }
+
+header {
+  background-color: rgba(126, 122, 121, 0.781);
+  margin-top: 0em;
+  padding-top: 2.5em;
+  text-align: center;
+  height: 30vh;
+  position: sticky;
+  top: 0em; }
+  header .logo {
+    min-height: 15vh;
+    max-height: 10vh; }
+    header .logo section.menu {
+      font-weight: 500;
+      padding: 2em;
+      text-align: center;
+      font-size: large;
+      font-style: italic;
+      color: #fffdfd;
+      list-style-type: none; }
+      header .logo section.menu nav ul li {
+        display: inline-block; }
+        header .logo section.menu nav ul li a {
+          font-weight: 500;
+          text-align: right;
+          font-size: large;
+          font-style: italic;
+          color: #fffdfd;
+          list-style-type: none; }
+
+.whatsApp {
+  width: 10vh;
+  height: 10vh;
+  position: fixed;
+  bottom: 10vh;
+  right: 3%; }
+
+main section.bienvenidos {
+  color: #050505;
+  font-style: italic;
+  font-weight: 500;
+  display: grid;
+  grid-template-areas: "equipo texto" "equipo texto";
+  grid-template-columns: 1fr 1fr; }
+  main section.bienvenidos .texto {
+    grid-area: texto;
+    margin: 2px;
+    padding-top: 2.5em; }
+    main section.bienvenidos .texto .equipo {
+      grid-area: equipo;
+      width: 100%;
+      height: auto;
+      margin: 1em;
+      padding-top: 1em; }
+
+footer {
+  background-color: rgba(126, 122, 121, 0.781);
+  font-style: italic;
+  font-weight: 500;
+  height: 5vh;
+  min-height: 10vh;
+  max-height: 150vh;
+  padding-top: 2.5em; }
+  footer section.redes {
+    font-size: large;
+    text-align: center;
+    color: #fffdfd; }
