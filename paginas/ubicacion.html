@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ubicacion</title>
     <link rel="shortcut icon" href="../imagenes/1519886781166.jfif">
-    <link rel="stylesheet" href="../CSS/style.css">
-<!--Fonteawesome sacamos el link para relacionarlo y los links de cada uno de los iconos-->
+    <!--Fonteawesome sacamos el link para relacionarlo y los links de cada uno de los iconos-->
     <script src="https://kit.fontawesome.com/d5aa0af634.js" crossorigin="anonymous"></script>
+    <!-- Link CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Link Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <img width="250" src="../imagenes/kavo-dental-espana-300x105.png" alt="Logo HTML">
+        <a href="../index.html">
+            <img class="logo" width="250" src="../imagenes/kavo-dental-espana-300x105.png" alt="logo">
         </a>
         <section class="menu">
-        <nav>
+        <!-- <nav>
             <ul>
                 <li>
                     <a href="../index.html">Inicio</a>
@@ -34,7 +37,34 @@
                     <a href="../paginas/contacto.html">Contacto</a>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/quienes-somos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/ubicacion.html">Ubicacion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </section> 
 
     </header>
@@ -49,18 +79,21 @@
 
     <footer>
         <section class="redes">
-         <p>Sitio desarrollado por Martin Acerenza </p>
-         <a href="https://m.facebook.com/pages/category/Personal-Blog/Kavo-Uruguay-163385290894066/?locale2=es_LA">
-            <i class="fab fa-facebook fa-2x"></i></a>
-           <a href="https://www.instagram.com/varkaus_dental/?hl=es">
-            <i class="fab fa-instagram fa-2x"></i></a>
-           <a href="https://twitter.com/KaVoKerr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-            <i class="fab fa-twitter fa-2x" ></i></a>
-           <a href="https://www.youtube.com/channel/UClLk3NWO6-4nK9STq0Sf34A">
-            <i class="fab fa-youtube fa-2x"></i></a>
+            <p>Sitio desarrollado por Martin Acerenza </p>
+            <a href="https://m.facebook.com/pages/category/Personal-Blog/Kavo-Uruguay-163385290894066/?locale2=es_LA">
+               <i class="fab fa-facebook fa-2x" style="color:white"> </i></a>
+              <a href="https://www.instagram.com/varkaus_dental/?hl=es">
+               <i class="fab fa-instagram fa-2x" style="color:white"></i></a>
+              <a href="https://twitter.com/KaVoKerr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+               <i class="fab fa-twitter fa-2x" style="color:white"></i></a>
+              <a href="https://www.youtube.com/channel/UClLk3NWO6-4nK9STq0Sf34A">
+               <i class="fab fa-youtube fa-2x" style="color:white"></i></a>
       </section>
 
     </footer>
-    
+<!-- Link JavaScript -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
 </body>
 </html>

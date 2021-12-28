@@ -19,7 +19,6 @@ h1{
 .logo{ 
     min-height: 15vh;
     max-height: 10vh;
-    transform: rotate(0.95turn);
 }
 
 /*Navegacion menu*/
